@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roman Exteriors &amp; Maintenance | Window Cleaning Calgary &amp; Edmonton</title>
+<meta name="description" content="Roman Exteriors & Maintenance: professional window cleaning, solar panel cleaning, gutter cleaning, pressure washing and Christmas light installation in Calgary and Edmonton. Request your free estimate.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#151312;
+  --ink-2:#221e1c;
+  --crimson:#8c1c1f;
+  --crimson-d:#6b1316;
+  --crimson-l:#b3292d;
+  --marble:#f6f1e9;
+  --stone:#ebe3d6;
+  --stone-d:#d9cdbb;
+  --brass:#a8834f;
+  --line:rgba(21,19,18,.14);
+  --muted:#5f5752;
+  --display:'Fraunces',Georgia,serif;
+  --roman:'Cinzel',Georgia,serif;
+  --body:'Inter Tight',system-ui,-apple-system,Segoe UI,sans-serif;
+  --wrap:1220px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--marble);line-height:1.6;font-size:16.5px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(var(--wrap),92vw);margin:0 auto}
+.eyebrow{font-family:var(--roman);font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--crimson);font-weight:600;display:inline-flex;align-items:center;gap:.7rem}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,3.6vw,3.1rem)}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:1rem 1.6rem;font-weight:600;font-size:.98rem;border:2px solid transparent;transition:.25s ease;cursor:pointer;font-family:var(--body)}
+.btn svg{width:18px;height:18px}
+.btn-red{background:var(--crimson);color:#fff}
+.btn-red:hover{background:var(--crimson-d)}
+.btn-line{border-color:var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--marble)}
+.btn-light{border-color:rgba(246,241,233,.5);color:var(--marble)}
+.btn-light:hover{background:var(--marble);color:var(--ink)}
+
+/* greek key band */
+.meander{height:22px;background-color:transparent;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='22' viewBox='0 0 44 22'%3E%3Cpath d='M0 20H8V4H32V16H16V10H24' fill='none' stroke='%238c1c1f' stroke-width='2.4'/%3E%3Cpath d='M24 10V12M32 16V20H44' fill='none' stroke='%238c1c1f' stroke-width='2.4'/%3E%3C/svg%3E");background-repeat:repeat-x;background-size:44px 22px;opacity:.85}
+.meander.light{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='22' viewBox='0 0 44 22'%3E%3Cpath d='M0 20H8V4H32V16H16V10H24' fill='none' stroke='%23a8834f' stroke-width='2.4'/%3E%3Cpath d='M24 10V12M32 16V20H44' fill='none' stroke='%23a8834f' stroke-width='2.4'/%3E%3C/svg%3E");opacity:.55}
+
+/* top bar */
+.topbar{background:var(--ink);color:#d9d1c6;font-size:.86rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.6rem 0;flex-wrap:wrap}
+.topbar .tb-l{display:flex;gap:1.6rem;flex-wrap:wrap}
+.topbar a:hover{color:#fff}
+.topbar b{color:#fff;font-weight:600}
+.topbar .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--crimson-l);margin-right:.5rem;vertical-align:middle}
+
+/* header */
+header.site{position:sticky;top:0;z-index:50;background:rgba(246,241,233,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0}
+.brand{display:flex;align-items:center;gap:.8rem}
+.brand img{width:56px;height:auto}
+.brand .wm{display:flex;flex-direction:column;line-height:1}
+.brand .wm strong{font-family:var(--roman);font-size:1.45rem;letter-spacing:.14em;font-weight:700}
+.brand .wm span{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);margin-top:.3rem;font-weight:600}
+nav.main{display:flex;align-items:center;gap:2rem}
+nav.main a.lk{font-weight:500;font-size:.96rem;position:relative;padding:.3rem 0}
+nav.main a.lk::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--crimson);transition:.25s}
+nav.main a.lk:hover::after,nav.main a.lk.on::after{width:100%}
+.menu-btn{display:none;background:none;border:0;cursor:pointer;width:44px;height:44px}
+.menu-btn span{display:block;width:24px;height:2px;background:var(--ink);margin:5px auto}
+
+/* hero */
+.hero{position:relative;padding:4.5rem 0 0;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:4rem;align-items:center}
+.hero h1{font-size:clamp(3rem,6.6vw,5.6rem);margin:1.3rem 0 1.4rem;font-weight:600}
+.hero h1 em{font-style:italic;color:var(--crimson);font-weight:500}
+.hero .lead{font-size:1.18rem;color:var(--muted);max-width:30rem}
+.hero .cta{display:flex;gap:1rem;flex-wrap:wrap;margin:2.2rem 0 2.6rem}
+.ledger{border-top:1px solid var(--line);padding-top:1.3rem;display:flex;flex-wrap:wrap;gap:.4rem 1.6rem}
+.ledger a{display:flex;align-items:baseline;gap:.5rem;font-size:.93rem;font-weight:500}
+.ledger a i{font-style:normal;font-family:var(--roman);color:var(--crimson);font-weight:700;font-size:.82rem}
+.ledger a:hover{color:var(--crimson)}
+.collage{position:relative;display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:1fr 1fr;gap:14px;height:560px}
+.collage figure{position:relative;overflow:hidden;background:var(--stone)}
+.collage img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.collage figure:hover img{transform:scale(1.04)}
+.collage .c1{grid-row:1/3;clip-path:polygon(0 0,100% 0,100% 100%,14% 100%,0 88%)}
+.collage .c2{clip-path:polygon(0 0,86% 0,100% 16%,100% 100%,0 100%)}
+.collage figcaption{position:absolute;left:0;bottom:0;background:var(--ink);color:var(--marble);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;padding:.45rem .8rem;font-weight:600}
+.collage .c1 figcaption{left:auto;right:0}
+.seal{position:absolute;left:-46px;top:50%;transform:translateY(-50%);width:132px;height:132px;border-radius:50%;background:var(--crimson);color:#fff;display:grid;place-items:center;text-align:center;box-shadow:0 18px 40px -12px rgba(107,19,22,.55);z-index:2}
+.seal::before{content:"";position:absolute;inset:7px;border-radius:50%;border:1px dashed rgba(255,255,255,.55)}
+.seal b{font-family:var(--display);font-size:1.7rem;line-height:1;display:block}
+.seal small{font-family:var(--roman);font-size:.62rem;letter-spacing:.16em;display:block;margin-top:.3rem;line-height:1.35}
+.hero .meander{margin-top:4.5rem}
+
+/* awards */
+.awards{background:#fff;border-bottom:1px solid var(--line)}
+.awards .wrap{display:grid;grid-template-columns:260px 1fr;gap:2.5rem;align-items:center;padding:2.2rem 0}
+.awards p{font-family:var(--display);font-size:1.25rem;line-height:1.3}
+.awards p span{display:block;font-family:var(--body);font-size:.82rem;color:var(--muted);margin-top:.4rem;letter-spacing:.04em}
+.awards ul{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+.awards li img{height:92px;width:auto;filter:grayscale(.15)}
+.awards li.bbb img{height:66px}
+
+/* pillars */
+.why{padding:7rem 0 6rem;background:var(--stone)}
+.why .head{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;align-items:end;margin-bottom:4rem}
+.why .head p{color:var(--muted);font-size:1.07rem}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.pillar{background:var(--marble);position:relative;padding:0 1.6rem 2rem;display:flex;flex-direction:column}
+.pillar .cap{height:20px;margin:0 -1.6rem 2.2rem;border-top:6px solid var(--ink);border-bottom:2px solid var(--ink);position:relative}
+.pillar .cap::after{content:"";position:absolute;left:12px;right:12px;bottom:-9px;height:3px;background:var(--ink)}
+.pillar .flutes{position:absolute;inset:44px 1.6rem 70px;background:repeating-linear-gradient(90deg,transparent 0 22px,rgba(21,19,18,.045) 22px 24px);pointer-events:none}
+.pillar h3{font-size:1.5rem;margin-bottom:.9rem;position:relative}
+.pillar p{color:var(--muted);font-size:.97rem;position:relative}
+.pillar .base{margin:auto -1.6rem -2rem;padding-top:2rem}
+.pillar .base div{height:3px;background:var(--ink);margin:0 12px}
+.pillar .base div+div{height:8px;margin:3px 0 0;background:var(--ink)}
+.pillar:nth-child(2) .cap,.pillar:nth-child(2) .cap::after,.pillar:nth-child(2) .base div{border-color:var(--crimson);background-color:var(--crimson)}
+.pillar:nth-child(2) .cap{background:none}
+
+/* services */
+.services{background:var(--ink);color:var(--marble);padding:7rem 0;position:relative}
+.services .eyebrow{color:#d4a7a3}
+.services .top{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-bottom:3.5rem;flex-wrap:wrap}
+.services .top p{max-width:34rem;color:#b9b0a6}
+.svc{display:grid;grid-template-columns:400px 1fr;gap:3.5rem;align-items:stretch}
+.svc-list{list-style:none;border-top:1px solid rgba(246,241,233,.15)}
+.svc-list button{all:unset;cursor:pointer;display:grid;grid-template-columns:54px 1fr 24px;align-items:center;width:100%;padding:1.35rem 0;border-bottom:1px solid rgba(246,241,233,.15);transition:.25s}
+.svc-list button i{font-style:normal;font-family:var(--roman);font-weight:700;color:#7d726a;font-size:1rem;transition:.25s}
+.svc-list button span{font-family:var(--display);font-size:1.45rem;color:#a99f95;transition:.25s}
+.svc-list button svg{width:20px;height:20px;opacity:0;transform:translateX(-8px);transition:.25s;color:var(--crimson-l)}
+.svc-list button:hover span{color:var(--marble)}
+.svc-list button.on span{color:var(--marble)}
+.svc-list button.on i{color:var(--crimson-l)}
+.svc-list button.on svg{opacity:1;transform:none}
+.svc-list button:focus-visible{outline:2px solid var(--crimson-l);outline-offset:4px}
+.svc-stage{position:relative;min-height:520px}
+.panel{position:absolute;inset:0;display:grid;grid-template-columns:1.05fr 1fr;opacity:0;visibility:hidden;transition:opacity .45s ease}
+.panel.on{opacity:1;visibility:visible;position:relative}
+.panel .ph{position:relative;overflow:hidden}
+.panel .ph img{width:100%;height:100%;object-fit:cover}
+.panel .ph .num{position:absolute;top:0;left:0;background:var(--crimson);font-family:var(--roman);font-weight:700;font-size:1.4rem;padding:.55rem 1rem}
+.panel .tx{background:var(--ink-2);padding:2.6rem 2.4rem;display:flex;flex-direction:column}
+.panel .tag{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:#d4a7a3;font-weight:600;margin-bottom:1rem}
+.panel h3{font-size:2.1rem;margin-bottom:1.1rem}
+.panel p{color:#c3bab0;margin-bottom:1rem;font-size:.99rem}
+.panel .btn{margin-top:auto;align-self:flex-start}
+
+/* gallery */
+.gallery{padding:7rem 0}
+.gallery .top{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-bottom:3rem;flex-wrap:wrap}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:150px;gap:14px}
+.bento figure{position:relative;overflow:hidden;background:var(--stone)}
+.bento img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}
+.bento figure:hover img{transform:scale(1.05)}
+.bento figcaption{position:absolute;left:14px;bottom:14px;background:rgba(246,241,233,.95);font-size:.8rem;font-weight:600;padding:.4rem .75rem;display:flex;gap:.5rem;align-items:center}
+.bento figcaption i{font-style:normal;font-family:var(--roman);color:var(--crimson);font-weight:700}
+.b1{grid-column:1/8;grid-row:span 3}
+.b2{grid-column:8/13;grid-row:span 3}
+.b3{grid-column:1/4;grid-row:span 2}
+.b4{grid-column:4/7;grid-row:span 2}
+.b5{grid-column:7/10;grid-row:span 2}
+.b6{grid-column:10/13;grid-row:span 2}
+
+/* choosing */
+.choose{background:#fff;padding:7rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.choose .wrap{display:grid;grid-template-columns:1fr 1.25fr;gap:5rem}
+.choose .stick{position:sticky;top:120px;align-self:start}
+.choose .stick p{color:var(--muted);margin-top:1.3rem;font-size:1.05rem}
+.check{list-style:none}
+.check li{display:grid;grid-template-columns:46px 1fr;gap:1.4rem;padding:2.2rem 0;border-bottom:1px solid var(--line)}
+.check li:first-child{padding-top:0}
+.check .box{width:46px;height:46px;border:2px solid var(--ink);display:grid;place-items:center;position:relative}
+.check .box svg{width:26px;height:26px;color:var(--crimson)}
+.check h3{font-size:1.55rem;margin-bottom:.6rem}
+.check p{color:var(--muted)}
+
+/* testimonials */
+.reviews{background:var(--crimson);color:#fff;padding:7rem 0;position:relative;overflow:hidden}
+.reviews::before{content:"\201C";position:absolute;font-family:var(--display);font-size:38rem;line-height:1;top:-6rem;left:-2rem;color:rgba(255,255,255,.06)}
+.reviews .eyebrow{color:#f2d3cf}
+.reviews .grid{display:grid;grid-template-columns:1.15fr 1fr;gap:5rem;position:relative}
+.feature h2{margin:1.2rem 0 2.5rem}
+.feature blockquote{font-family:var(--display);font-size:clamp(1.5rem,2.4vw,2.1rem);line-height:1.32;font-style:italic;font-weight:500}
+.who{display:flex;align-items:center;gap:1rem;margin-top:1.8rem}
+.who .av{width:48px;height:48px;border-radius:50%;background:var(--ink);display:grid;place-items:center;font-family:var(--roman);font-weight:700}
+.who b{display:block}
+.who small{opacity:.75}
+.stars{color:#ffd9a0;letter-spacing:.15em;font-size:.95rem}
+.more-q{border-left:1px solid rgba(255,255,255,.25);padding-left:3rem}
+.more-q article{padding:1.8rem 0;border-bottom:1px solid rgba(255,255,255,.2)}
+.more-q article:first-child{padding-top:0}
+.more-q h3{font-size:1.25rem;margin:.35rem 0 .5rem}
+.more-q p{opacity:.9;font-size:.98rem}
+.more-q .nm{margin-top:.7rem;font-size:.86rem;font-weight:600;opacity:.85}
+.reviews .btn{margin-top:2rem}
+
+/* faq */
+.faq{padding:7rem 0}
+.faq .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:5rem}
+.faq .side p{color:var(--muted);margin:1.2rem 0 2rem}
+.ask{background:var(--ink);color:var(--marble);padding:2rem}
+.ask h3{font-size:1.4rem;margin-bottom:.6rem}
+.ask p{color:#b9b0a6!important;margin:0 0 1.2rem!important;font-size:.95rem}
+.ask a.ph{display:flex;justify-content:space-between;border-top:1px solid rgba(246,241,233,.15);padding:.8rem 0;font-weight:600}
+.ask a.ph span{color:#b9b0a6;font-weight:400}
+.ask a.ph:hover{color:#fff}
+details{border-bottom:1px solid var(--line)}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:44px 1fr 28px;align-items:center;padding:1.35rem 0;font-family:var(--display);font-size:1.22rem;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary i{font-style:normal;font-family:var(--roman);font-size:.85rem;color:var(--crimson);font-weight:700}
+summary .pm{width:28px;height:28px;border:1.5px solid var(--ink);display:grid;place-items:center;position:relative}
+summary .pm::before,summary .pm::after{content:"";position:absolute;width:12px;height:1.5px;background:var(--ink);transition:.25s}
+summary .pm::after{transform:rotate(90deg)}
+details[open] summary .pm{background:var(--crimson);border-color:var(--crimson)}
+details[open] summary .pm::before,details[open] summary .pm::after{background:#fff}
+details[open] summary .pm::after{transform:rotate(0)}
+details .ans{padding:0 2.5rem 1.5rem 44px;color:var(--muted)}
+
+/* contact */
+.contact{background:var(--ink);color:var(--marble);padding:0 0 6rem}
+.contact .meander{margin-bottom:5.5rem}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:4.5rem;align-items:start}
+.contact .eyebrow{color:#d4a7a3}
+.contact h2{margin:1.2rem 0 1.2rem}
+.contact .intro{color:#b9b0a6;max-width:30rem}
+.lines{margin-top:2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(246,241,233,.12)}
+.lines a,.lines div{background:var(--ink);padding:1.4rem 1.4rem 1.4rem 0}
+.lines a:nth-child(even),.lines div:nth-child(even){padding-left:1.4rem}
+.lines small{display:block;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#8f857c;font-weight:600;margin-bottom:.35rem}
+.lines b{font-family:var(--display);font-size:1.35rem;font-weight:600}
+.lines a:hover b{color:#e7a9a4}
+form.est{background:var(--marble);color:var(--ink);padding:2.6rem;position:relative}
+form.est::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:var(--crimson)}
+form.est h3{font-size:1.7rem;margin-bottom:.4rem}
+form.est > p{color:var(--muted);font-size:.93rem;margin-bottom:1.6rem}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.fld{display:flex;flex-direction:column;margin-bottom:1rem}
+.fld label{font-size:.76rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem}
+.fld input,.fld select,.fld textarea{font:inherit;font-size:.97rem;padding:.85rem .9rem;border:1.5px solid var(--stone-d);background:#fff;color:var(--ink);border-radius:0}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--crimson)}
+form.est .btn{width:100%;justify-content:center;margin-top:.4rem}
+
+/* footer */
+footer{background:#0d0b0a;color:#a99f95;padding:5rem 0 0;font-size:.95rem}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:3rem;padding-bottom:3.5rem}
+.f-brand .brand .wm strong{color:var(--marble)}
+.f-brand .brand .wm span{color:#8f857c}
+.f-brand p{margin:1.3rem 0;max-width:20rem}
+.soc{display:flex;gap:.6rem}
+.soc a{width:40px;height:40px;border:1px solid rgba(246,241,233,.2);display:grid;place-items:center;transition:.25s}
+.soc a:hover{background:var(--crimson);border-color:var(--crimson);color:#fff}
+.soc svg{width:18px;height:18px}
+footer h4{font-family:var(--roman);font-size:.8rem;letter-spacing:.2em;color:var(--marble);margin-bottom:1.2rem;font-weight:600}
+footer ul{list-style:none}
+footer li{margin-bottom:.6rem}
+footer a:hover{color:var(--marble)}
+.f-bot{border-top:1px solid rgba(246,241,233,.1);padding:1.4rem 0;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.86rem}
+.f-bot a{color:var(--marble);font-weight:600}
+.f-bot a:hover{color:#e7a9a4}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+
+/* responsive */
+@media (max-width:1080px){
+  .hero .wrap{grid-template-columns:1fr;gap:3rem}
+  .collage{height:480px}
+  .seal{left:auto;right:16px;top:auto;bottom:-30px;transform:none;width:118px;height:118px}
+  .pillars{grid-template-columns:repeat(2,1fr)}
+  .why .head{grid-template-columns:1fr;gap:1rem}
+  .svc{grid-template-columns:1fr;gap:2rem}
+  .svc-list{display:flex;overflow-x:auto;border-top:0;gap:.5rem;padding-bottom:.4rem}
+  .svc-list li{flex:0 0 auto}
+  .svc-list button{grid-template-columns:auto auto;gap:.6rem;padding:.7rem 1rem;border:1px solid rgba(246,241,233,.2)}
+  .svc-list button svg{display:none}
+  .svc-list button span{font-size:1.05rem}
+  .svc-list button.on{background:var(--crimson);border-color:var(--crimson)}
+  .svc-list button.on i{color:#fff}
+  .choose .wrap,.faq .wrap,.contact .wrap,.reviews .grid{grid-template-columns:1fr;gap:3rem}
+  .choose .stick{position:static}
+  .more-q{border-left:0;padding-left:0}
+  .f-grid{grid-template-columns:1fr 1fr}
+  .awards .wrap{grid-template-columns:1fr;gap:1.5rem}
+}
+@media (max-width:820px){
+  nav.main{display:none;position:absolute;top:100%;left:0;right:0;background:var(--marble);flex-direction:column;align-items:flex-start;padding:1.2rem 4vw 1.6rem;gap:1rem;border-bottom:1px solid var(--line)}
+  nav.main.open{display:flex}
+  .menu-btn{display:block}
+  .topbar .tb-r{display:none}
+  .panel{grid-template-columns:1fr}
+  .panel .ph{height:300px}
+  .svc-stage{min-height:0}
+  .bento{grid-auto-rows:120px}
+  .b1,.b2{grid-column:1/13;grid-row:span 3}
+  .b3,.b5{grid-column:1/7}.b4,.b6{grid-column:7/13}
+  .b3,.b4,.b5,.b6{grid-row:span 2}
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  .hero{padding-top:3rem}
+  .collage{height:400px;grid-template-columns:1fr 1fr}
+  .pillars{grid-template-columns:1fr}
+  .row,.lines{grid-template-columns:1fr}
+  .lines a:nth-child(even),.lines div:nth-child(even){padding-left:0}
+  .f-grid{grid-template-columns:1fr}
+  .why,.services,.gallery,.choose,.reviews,.faq{padding:4.5rem 0}
+  form.est{padding:1.8rem}
+  .awards ul{justify-content:center}
+  .awards li img{height:74px}
+  .awards li.bbb img{height:52px}
+  .brand .wm strong{font-size:1.2rem}
+  .brand img{width:46px}
+  details .ans{padding-right:0}
+}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-l">
+      <a href="tel:4034648047"><span class="dot"></span>Calgary <b>(403) 464-8047</b></a>
+      <a href="tel:7802333466">Edmonton <b>(780) 233-3466</b></a>
+    </div>
+    <div class="tb-r">Mon to Fri, 8:00 AM to 5:00 PM &nbsp;·&nbsp; <a href="mailto:romanexteriors7@gmail.com">romanexteriors7@gmail.com</a></div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a href="#" class="brand" aria-label="Roman Exteriors &amp; Maintenance home">
+      <img src="images/logo.png" alt="Roman Exteriors &amp; Maintenance logo">
+      <span class="wm"><strong>ROMAN</strong><span>Exteriors &amp; Maintenance</span></span>
+    </a>
+    <nav class="main" id="nav">
+      <a class="lk on" href="#">Home</a>
+      <a class="lk" href="#services">Services</a>
+      <a class="lk" href="https://www.romanexteriors.com/blank">Gallery</a>
+      <a class="lk" href="https://www.romanexteriors.com/feedbacks">Reviews</a>
+      <a class="lk" href="https://www.romanexteriors.com/about">About</a>
+      <a class="btn btn-red" href="#contact">Free Estimate</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Calgary &amp; Edmonton</span>
+      <h1>Property care<br>done <em>right.</em></h1>
+      <p class="lead">Professional Window Cleaning In Calgary That You Can Trust. Plus solar panel cleaning, gutter cleaning, pressure washing and Christmas light installation.</p>
+      <div class="cta">
+        <a class="btn btn-red" href="#contact">Request My Free Estimate
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-line" href="tel:4034648047">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          (403) 464-8047</a>
+      </div>
+      <div class="ledger">
+        <a href="#services" data-go="0"><i>I</i>Window Cleaning</a>
+        <a href="#services" data-go="1"><i>II</i>Solar Panels</a>
+        <a href="#services" data-go="2"><i>III</i>Gutters</a>
+        <a href="#services" data-go="3"><i>IV</i>Pressure Washing</a>
+        <a href="#services" data-go="4"><i>V</i>Christmas Lights</a>
+      </div>
+    </div>
+    <div class="collage rv">
+      <div class="seal"><div><b>Free</b><small>ESTIMATES<br>NO HIDDEN FEES</small></div></div>
+      <figure class="c1"><img src="images/window-cleaning-ladder.jpg" alt="Roman Exteriors technician cleaning a second storey window from a ladder"><figcaption>Window Cleaning</figcaption></figure>
+      <figure class="c2"><img src="images/solar-panel-cleaning.jpg" alt="Crew cleaning rooftop solar panels"><figcaption>Solar Panels</figcaption></figure>
+      <figure class="c3"><img src="images/pressure-washing-deck.jpg" alt="Wood deck after pressure washing"><figcaption>Pressure Washing</figcaption></figure>
+    </div>
+  </div>
+  <div class="meander"></div>
+</section>
+
+<!-- AWARDS -->
+<section class="awards">
+  <div class="wrap">
+    <p>Trusted &amp; recognized<span>Calgary · Edmonton</span></p>
+    <ul>
+      <li class="bbb"><img src="images/badge-bbb.png" alt="BBB Accredited Business"></li>
+      <li><img src="images/badge-best-calgary.png" alt="Best Window and Gutter Cleaning award"></li>
+      <li><img src="images/badge-best-edmonton.png" alt="Best in Edmonton award"></li>
+      <li><img src="images/badge-canadian-quality.png" alt="Canadian Quality Service award"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow">Why Roman Exteriors</span>
+        <h2 style="margin-top:1rem">Why Choose Roman Exteriors for Window Cleaning In Calgary?</h2>
+      </div>
+      <p>Four things we hold ourselves to on every home and property we work on.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar rv">
+        <div class="cap"></div><div class="flutes"></div>
+        <h3>Free Estimates</h3>
+        <p>Starting with us is simple. Request a free quote or estimate online or by phone. We provide transparent pricing with no hidden fees, so you know exactly what to expect.</p>
+        <div class="base"><div></div><div></div></div>
+      </article>
+      <article class="pillar rv">
+        <div class="cap"></div><div class="flutes"></div>
+        <h3>Professional Services</h3>
+        <p>Our team is committed to delivering exceptional service with a focus on customer satisfaction. We use advanced equipment and techniques to ensure every job is done right.</p>
+        <div class="base"><div></div><div></div></div>
+      </article>
+      <article class="pillar rv">
+        <div class="cap"></div><div class="flutes"></div>
+        <h3>Satisfaction Guarantee</h3>
+        <p>We stand behind our work with a satisfaction guarantee. If you're not completely happy with our service, let us know and we'll address any issues.</p>
+        <div class="base"><div></div><div></div></div>
+      </article>
+      <article class="pillar rv">
+        <div class="cap"></div><div class="flutes"></div>
+        <h3>Personalized Service</h3>
+        <p>Every property is unique, so we tailor our services to your needs. We create a custom cleaning plan or focus on certain areas, and make sure every detail is addressed.</p>
+        <div class="base"><div></div><div></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="top rv">
+      <div>
+        <span class="eyebrow">Our Services</span>
+        <h2 style="margin-top:1rem">Five services.<br>One trusted crew.</h2>
+      </div>
+      <p>Residential and commercial window cleaning, solar panel cleaning, gutter cleaning, pressure washing and Christmas light installation across Calgary and Edmonton.</p>
+    </div>
+    <div class="svc rv">
+      <ul class="svc-list" role="tablist">
+        <li><button class="on" role="tab" aria-selected="true"><i>I</i><span>Window Cleaning</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+        <li><button role="tab" aria-selected="false"><i>II</i><span>Solar Panel Cleaning</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+        <li><button role="tab" aria-selected="false"><i>III</i><span>Gutter Cleaning</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+        <li><button role="tab" aria-selected="false"><i>IV</i><span>Pressure Washing</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+        <li><button role="tab" aria-selected="false"><i>V</i><span>Christmas Light Installation</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>
+      </ul>
+      <div class="svc-stage">
+        <div class="panel on" role="tabpanel">
+          <div class="ph"><img src="images/window-cleaning-ladder.jpg" alt="Residential window cleaning in Calgary"><span class="num">I</span></div>
+          <div class="tx">
+            <span class="tag">Residential &amp; Commercial</span>
+            <h3>Window Cleaning</h3>
+            <p>Brighten your home with our expert residential window cleaning services. We handle every detail, from exterior to interior window cleaning, to make your panes crystal clear.</p>
+            <p>We also offer specialized services, including window screen and track cleaning, to address all your cleaning needs.</p>
+            <a class="btn btn-red" href="https://www.romanexteriors.com/residential-window-cleaning-calgary">View Window Cleaning Services</a>
+          </div>
+        </div>
+        <div class="panel" role="tabpanel">
+          <div class="ph"><img src="images/solar-panel-cleaning.jpg" alt="Solar panel cleaning on a residential roof" loading="lazy"><span class="num">II</span></div>
+          <div class="tx">
+            <span class="tag">Energy Efficiency</span>
+            <h3>Solar Panel Cleaning</h3>
+            <p>Enhance your energy efficiency with our expert solar panel cleaning services. We clean every panel to maximize sunlight absorption, which boosts your solar system's performance.</p>
+            <p>We use purpose-built equipment and environmentally friendly solutions that remove dust, dirt and debris to keep your panels in top condition.</p>
+            <a class="btn btn-red" href="https://www.romanexteriors.com/solar-panel-cleaning-calgary">View Solar Panel Cleaning Services</a>
+          </div>
+        </div>
+        <div class="panel" role="tabpanel">
+          <div class="ph"><img src="images/gutter-before-after.jpg" alt="Gutter before and after cleaning" loading="lazy"><span class="num">III</span></div>
+          <div class="tx">
+            <span class="tag">Eavestroughs &amp; Gutters</span>
+            <h3>Gutter Cleaning</h3>
+            <p>Protect your property's integrity with our eavestrough and gutter cleaning service.</p>
+            <p>Regular maintenance prevents buildup and ensures your gutters work properly, protecting your property from potential damage.</p>
+            <a class="btn btn-red" href="https://www.romanexteriors.com/gutter-cleaning-calgary">View Gutter Cleaning Services</a>
+          </div>
+        </div>
+        <div class="panel" role="tabpanel">
+          <div class="ph"><img src="images/pressure-washing-deck.jpg" alt="Pressure washed wood deck" loading="lazy"><span class="num">IV</span></div>
+          <div class="tx">
+            <span class="tag">Driveways · Patios · Walls</span>
+            <h3>Pressure Washing</h3>
+            <p>We offer pressure washing services that remove dirt and grime from various surfaces.</p>
+            <p>Whether it's your driveway, patio or exterior walls, we use top-quality cleaning solutions to rejuvenate your property.</p>
+            <a class="btn btn-red" href="https://www.romanexteriors.com/pressure-washing-calgary">View Pressure Washing Services</a>
+          </div>
+        </div>
+        <div class="panel" role="tabpanel">
+          <div class="ph"><img src="images/christmas-lights-night.jpg" alt="Home with professionally installed Christmas lights" loading="lazy"><span class="num">V</span></div>
+          <div class="tx">
+            <span class="tag">Seasonal</span>
+            <h3>Christmas Light Installation</h3>
+            <p>Brighten your holidays with our professional Christmas light installation services. We handle everything from design to installation, so your home will look beautiful.</p>
+            <p>Let us take the hassle out of decorating so you can enjoy a stress-free holiday season.</p>
+            <a class="btn btn-red" href="https://www.romanexteriors.com/christmas-light-installation-calgary">View Christmas Light Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <div class="wrap">
+    <div class="top rv">
+      <div>
+        <span class="eyebrow">Our Work</span>
+        <h2 style="margin-top:1rem">Real jobs. Real results.</h2>
+      </div>
+      <a class="btn btn-line" href="https://www.romanexteriors.com/blank">View Full Gallery</a>
+    </div>
+    <div class="bento">
+      <figure class="b1 rv"><img src="images/christmas-lights-night.jpg" alt="Christmas light installation at night" loading="lazy"><figcaption><i>V</i>Christmas Light Installation</figcaption></figure>
+      <figure class="b2 rv"><img src="images/gutter-before-after.jpg" alt="Gutter cleaning before and after" loading="lazy"><figcaption><i>III</i>Gutter Cleaning · Before &amp; After</figcaption></figure>
+      <figure class="b3 rv"><img src="images/christmas-light-install-truck.jpg" alt="Crew installing roofline lights from a bucket truck" loading="lazy"><figcaption><i>V</i>Roofline Install</figcaption></figure>
+      <figure class="b4 rv"><img src="images/solar-panel-cleaning.jpg" alt="Solar panel cleaning crew on roof" loading="lazy"><figcaption><i>II</i>Solar Panel Cleaning</figcaption></figure>
+      <figure class="b5 rv"><img src="images/window-cleaning-ladder.jpg" alt="Exterior window cleaning" loading="lazy"><figcaption><i>I</i>Window Cleaning</figcaption></figure>
+      <figure class="b6 rv"><img src="images/pressure-washing-deck.jpg" alt="Deck pressure washing" loading="lazy"><figcaption><i>IV</i>Pressure Washing</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- CHOOSING -->
+<section class="choose">
+  <div class="wrap">
+    <div class="stick rv">
+      <span class="eyebrow">Hiring Checklist</span>
+      <h2 style="margin-top:1rem">Choosing the Right Window Cleaning Company In Calgary</h2>
+      <p>Three things to check before you book anyone to work on your home.</p>
+    </div>
+    <ul class="check">
+      <li class="rv">
+        <div class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12.5l5 5L20 6.5"/></svg></div>
+        <div><h3>Experience and Reputation</h3><p>Look for a company with a proven track record. Check online reviews and ask for recommendations. This will help you choose a service with a reputation for high-quality work.</p></div>
+      </li>
+      <li class="rv">
+        <div class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12.5l5 5L20 6.5"/></svg></div>
+        <div><h3>Transparent Pricing and Clear Communication</h3><p>Ensure the company provides transparent pricing with no hidden fees and communicates clearly throughout the process. A reliable service will offer detailed estimates and keep you informed about the scope of work.</p></div>
+      </li>
+      <li class="rv">
+        <div class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 12.5l5 5L20 6.5"/></svg></div>
+        <div><h3>Insurance</h3><p>Check if the company has insurance and certification. This protects you in case of any accidents or damage during the cleaning process.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+  <div class="wrap">
+    <div class="grid">
+      <div class="feature rv">
+        <span class="eyebrow">Testimonials</span>
+        <h2>Happy Customers Speak</h2>
+        <div class="stars">★★★★★</div>
+        <blockquote style="margin-top:1rem">Excellent window cleaning! Roman Exteriors did a great job!! Now we can see clearly out of every window!! Good communication, on time, and reliable service year after year. Thank you!!</blockquote>
+        <div class="who"><span class="av">RJ</span><div><b>Risha J.</b><small>Calgary, AB</small></div></div>
+        <a class="btn btn-light" href="https://www.romanexteriors.com/feedbacks">Read All Reviews</a>
+      </div>
+      <div class="more-q">
+        <article class="rv">
+          <div class="stars">★★★★★</div>
+          <h3>Highly recommend!</h3>
+          <p>Great experience dealing with Roman Exteriors. Entire staff was professional and courteous from booking to cleaning. Sam did a great job with our exterior windows. Highly recommend.</p>
+          <div class="nm">Saedah M. · Calgary, AB</div>
+        </article>
+        <article class="rv">
+          <div class="stars">★★★★★</div>
+          <h3>Fabulous!</h3>
+          <p>Roman Exteriors are fabulous for cleaning windows. I've used them a few times and am completely satisfied with the results each time.</p>
+          <div class="nm">Mona T. · Calgary, AB</div>
+        </article>
+        <article class="rv">
+          <div class="stars">★★★★★</div>
+          <h3>Professional.</h3>
+          <p>Job well done! Windows were cleaned very thoroughly and in a timely manner. The crew was super courteous and professional. Will definitely use their services again!</p>
+          <div class="nm">Ibrahim H. · Calgary, AB</div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <div class="side rv">
+      <span class="eyebrow">FAQ</span>
+      <h2 style="margin-top:1rem">Frequently Asked Questions</h2>
+      <p>Quick answers about window cleaning in Calgary. Still unsure? Give us a call.</p>
+      <div class="ask">
+        <h3>Talk to the team</h3>
+        <p>Monday to Friday, 8:00 AM to 5:00 PM</p>
+        <a class="ph" href="tel:4034648047">(403) 464-8047 <span>Calgary</span></a>
+        <a class="ph" href="tel:7802333466">(780) 233-3466 <span>Edmonton</span></a>
+      </div>
+    </div>
+    <div class="rv">
+      <details open><summary><i>I</i>What is the cost of window cleaning in Calgary?<span class="pm"></span></summary><div class="ans">The cost varies based on your property's size, the number of windows, and any extra services you might need. For a precise quote, we offer free estimates tailored to fit your budget.</div></details>
+      <details><summary><i>II</i>How can I get a free quote for window cleaning in Calgary?<span class="pm"></span></summary><div class="ans">Request a free quote through our website or by calling us. We'll provide a detailed estimate based on your needs and arrange a time for your service.</div></details>
+      <details><summary><i>III</i>How often should you get your windows cleaned?<span class="pm"></span></summary><div class="ans">In Calgary, it's recommended to clean your windows at least twice a year. If you live in a dusty area or near many trees, you may need to clean more often to prevent dust buildup and maintain clear views.</div></details>
+      <details><summary><i>IV</i>What is the difference between window washing and window cleaning?<span class="pm"></span></summary><div class="ans">Window washing means cleaning just the glass, while window cleaning is more thorough. A full window cleaning service includes cleaning the frames, tracks, and screens.</div></details>
+      <details><summary><i>V</i>Do we clean the sills and frames too?<span class="pm"></span></summary><div class="ans">Yes, we clean window sills and frames to ensure no dust or debris around your windows.</div></details>
+      <details><summary><i>VI</i>What is the best way to clean windows?<span class="pm"></span></summary><div class="ans">The best approach combines effective cleaning solutions and techniques. We use water-fed poles and eco-friendly cleaners for streak-free, crystal-clear results without residue.</div></details>
+      <details><summary><i>VII</i>How long does window cleaning take?<span class="pm"></span></summary><div class="ans">The time required depends on your property's size and the number of windows. On average, residential window cleaning in Calgary takes 1 to 4 hours. We ensure efficiency while delivering high-quality results.</div></details>
+      <details><summary><i>VIII</i>Are professional window cleaners worth it?<span class="pm"></span></summary><div class="ans">Yes, professional window cleaners use special equipment and techniques. They ensure your windows are spotless and streak-free. Our expertise and cleaning agents enhance your property's curb appeal and help maintain the lifespan of your windows.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="meander light"></div>
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Free Estimate</span>
+      <h2>Starting with us is simple.</h2>
+      <p class="intro">Request a free quote or estimate online or by phone. We provide transparent pricing with no hidden fees, so you know exactly what to expect.</p>
+      <div class="lines">
+        <a href="tel:4034648047"><small>Calgary</small><b>(403) 464-8047</b></a>
+        <a href="tel:7802333466"><small>Edmonton</small><b>(780) 233-3466</b></a>
+        <a href="mailto:romanexteriors7@gmail.com"><small>Email</small><b style="font-size:1.05rem">romanexteriors7@gmail.com</b></a>
+        <div><small>Hours</small><b style="font-size:1.05rem">Mon to Fri · 8 AM to 5 PM</b></div>
+      </div>
+    </div>
+    <form class="est rv" action="mailto:romanexteriors7@gmail.com" method="post" enctype="text/plain">
+      <h3>Request My Free Estimate</h3>
+      <p>Tell us about your property and we'll get back to you.</p>
+      <div class="row">
+        <div class="fld"><label for="n">Name</label><input id="n" name="name" required></div>
+        <div class="fld"><label for="p">Phone</label><input id="p" name="phone" type="tel"></div>
+      </div>
+      <div class="row">
+        <div class="fld"><label for="e">Email</label><input id="e" name="email" type="email" required></div>
+        <div class="fld"><label for="s">Service</label>
+          <select id="s" name="service">
+            <option>Window Cleaning</option><option>Solar Panel Cleaning</option><option>Gutter Cleaning</option><option>Pressure Washing</option><option>Christmas Light Installation</option>
+          </select></div>
+      </div>
+      <div class="fld"><label for="m">Message</label><textarea id="m" name="message" rows="4"></textarea></div>
+      <button class="btn btn-red" type="submit">Send Request
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <a href="#" class="brand"><img src="images/logo-light.png" alt="Roman Exteriors &amp; Maintenance logo"><span class="wm"><strong>ROMAN</strong><span>Exteriors &amp; Maintenance</span></span></a>
+        <p>Window cleaning, solar panel cleaning, gutter cleaning, pressure washing and Christmas light installation in Calgary and Edmonton.</p>
+        <div class="soc">
+          <a href="https://www.facebook.com/RomanExteriors/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a>
+          <a href="https://www.instagram.com/romanexteriors" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>SERVICES</h4>
+        <ul>
+          <li><a href="https://www.romanexteriors.com/residential-window-cleaning-calgary">Window Cleaning</a></li>
+          <li><a href="https://www.romanexteriors.com/solar-panel-cleaning-calgary">Solar Panel Cleaning</a></li>
+          <li><a href="https://www.romanexteriors.com/gutter-cleaning-calgary">Gutter Cleaning</a></li>
+          <li><a href="https://www.romanexteriors.com/pressure-washing-calgary">Pressure Washing</a></li>
+          <li><a href="https://www.romanexteriors.com/christmas-light-installation-calgary">Christmas Light Installation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>COMPANY</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.romanexteriors.com/blank">Gallery</a></li>
+          <li><a href="https://www.romanexteriors.com/feedbacks">Reviews</a></li>
+          <li><a href="https://www.romanexteriors.com/about">About</a></li>
+          <li><a href="#contact">Free Estimate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>CONTACT</h4>
+        <ul>
+          <li>Calgary: <a href="tel:4034648047">(403) 464-8047</a></li>
+          <li>Edmonton: <a href="tel:7802333466">(780) 233-3466</a></li>
+          <li><a href="mailto:romanexteriors7@gmail.com">romanexteriors7@gmail.com</a></li>
+          <li>Mon to Fri: 8:00 AM to 5:00 PM</li>
+          <li>Sat &amp; Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="wrap f-bot">
+    <span>© 2024 by Roman Exteriors &amp; Maintenance. All rights reserved.</span>
+    <span><a href="https://cleaningdigital.ca/" target="_blank" rel="noopener">Design by Cleaning Digital.</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('.svc-list button'));
+  var panels=[].slice.call(document.querySelectorAll('.panel'));
+  function show(i){
+    tabs.forEach(function(t,k){t.classList.toggle('on',k===i);t.setAttribute('aria-selected',k===i)});
+    panels.forEach(function(p,k){p.classList.toggle('on',k===i)});
+  }
+  tabs.forEach(function(t,i){t.addEventListener('click',function(){show(i)})});
+  document.querySelectorAll('[data-go]').forEach(function(a){a.addEventListener('click',function(){show(+a.getAttribute('data-go'))})});
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+    els.forEach(function(el){io.observe(el)});
+  } else els.forEach(function(el){el.classList.add('in')});
+  document.querySelectorAll('nav.main a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open')})});
+})();
+</script>
+</body>
+</html>
